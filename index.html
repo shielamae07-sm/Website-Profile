@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiela Mae Alingig Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!--Home section-->
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/shiela logo.png" class="logo">
+            
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about me">About Me</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>BSIT Student</p>
+            <h1>Hi, I'm <span>Shiela Mae Alingig</span><br> from BISU Balilihan Campus</h1>
+        </div>
+    </div>
+
+      <!--About Me Section-->
+
+      <div id="about me">
+        <div class="container">
+            <div class="row">
+        
+                <div class="aboutme-col-2">
+                    <h1 class=>About Me</h1><br>
+                    <p>I'm Shiela Mae Alingig, a BSIT student at Bohol Island State University- Balilihan Campus. </p>
+                    <div class="tab-tiles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2009-2015 - Elementary </span><br>Corella Central Elementary School</li>
+                            <li><span>2015-2021 - High School</span><br>Corella National High School</li>
+                            <li><span>2021-Present - College</span><br>Bohol Island State University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+  <!--Projects Section-->
+
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>  
+        <div class="projects-list">
+            <div>
+                <h2>HCI Lesson Portfolio Website</h2>
+                <div class="project">
+                    <img src="Images/HCI Lesson Portfolio Website.png" >
+                    <img src="Images/HCI-2.png">
+                    <img src="Images/HCI-3.png">
+                </div>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Parteach Android App</h2>
+                <div class="project">
+                    <img src="Images/Parteach Android App.jpg" >
+                </div>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Simple Room Customer Information</h2>
+                <div class="project">
+                    <img src="Images/Simple Room Customer Information.png" >
+                    <img src="Images/Simple Room-2.png" >
+                    <img src="Images/Simple Room-3.png" >
+                </div>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Body Massage and Foot Spa System</h2>
+                <div class="project">
+                    <img src="Images/Body Massage and Foot Spa System.png" >
+                    <img src="Images/Body Massage - 2.png" >
+                    <img src="Images/Body Massage - 3.png" >
+                </div>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Architectural Visualization (Graphic & Design Animation)</h2>
+                <div class="project">
+                    <img src="Images/Architectural Visualization (Graphic & Design Animation).png" >
+                    <img src="Images/Architectural - 3.png" >
+                    <img src="Images/Architectural - 4.png">
+                </div>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Social Media Post (Graphic & Design Animation)</h2>
+                <div class="project">
+                    <img src="Images/Social Media Post (Graphic & Design Animation).png" >
+                </div>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Student Calling Card (Graphic & Design Animation)</h2>
+                <div class="project">
+                    <img src="Images/Student Calling Card (Graphic & Design Animation).png" >
+                    <img src="Images/Student- 2.png" >
+                    <img src="Images/Student - 3.png" >
+                </div>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Treasure Concert Poster (Graphic & Design Animation)</h2>
+                <div class="project">
+                    <img src="Images/Treasure Concert Poster (Graphic & Design Animation).png" >
+                </div>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><ion-icon name="send-outline"></ion-icon> shielamaealingig@gmail.com</p>
+                <p><ion-icon name="call-outline"></ion-icon> 09500244797</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://instagram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://linkedin.com" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 Shiela Mae Alingig <br> BSIT Student at Bohol Island State University - Balilihan Campus<bR> For inquiries, you can reach me at: <span></span>shielamaealingig@gmail.com</span></p>
+    </div>
+
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
+
+
